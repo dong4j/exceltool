@@ -23,3 +23,12 @@
 1. 如果创建多个窗口
 2. 多窗口之间如何传参
 3. fxml 的使用等
+
+打包命令:
+
+先使用 
+
+先使用 eclipse 或者 idea 打包成可运行的 jar,然后使用一下命令打包为本地包
+
+`javafxpackager -deploy -native image -appclass com.dong4j.gui.MainApp -srcdir C:\ccc -outdir C:\ddd -outfile test -name ExcelTool`
+
